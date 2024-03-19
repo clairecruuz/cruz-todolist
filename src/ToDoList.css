@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "FeelingLovely";
+  src: url("C:\Users\aless\todolist\public\fonts\Hello.otf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("C:\Users\aless\todolist\public\images\bg.jpg");
+  font-family: "FeelingLovely", sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "FeelingLovely", sans-serif;
+}
+
+header h1 {
+  font-size: 80px;
+  color: #a29180;
+}
+
+.todo-list {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(249, 249, 249, 0.8);
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.add-task {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centering the input boxes */
+  margin-bottom: 20px;
+}
+
+.task-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: "Times New Roman", Times, serif;
+  margin-right: 10px;
+}
+
+.tasks {
+  margin-top: 20px;
+}
+
+.task-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-name,
+.due-date {
+  font-family: "Times New Roman", Times, serif;
+  color: #877869;
+}
+
+.task-actions {
+  display: flex;
+  align-items: center;
+}
+
+.complete-btn,
+.delete-btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.complete-btn {
+  background-color: #a29180;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.delete-btn {
+  background-color: #c7b6a5;
+  color: #fff;
+}
+
+.task.completed {
+  text-decoration: line-through;
+}
+.add-task button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #a29180;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.add-task button:hover {
+  background-color: #818079;
+}
