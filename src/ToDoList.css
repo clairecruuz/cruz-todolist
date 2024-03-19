@@ -1,12 +1,17 @@
 @font-face {
   font-family: "FeelingLovely";
-  src: url("C:\Users\aless\todolist\public\fonts\Hello.otf") format("truetype");
+  src: url("../public/fonts/Hello.otf") format("truetype");
+}
+
+.tasks header h2 {
+  font-family: "Times New Roman", Times, serif;
+  color: #a29180;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-image: url("C:\Users\aless\todolist\public\images\bg.jpg");
+  background-image: url("../public/images/bg.jpg");
   font-family: "FeelingLovely", sans-serif;
 }
 
