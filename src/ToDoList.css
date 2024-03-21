@@ -122,3 +122,38 @@ header h1 {
 .add-task button:hover {
   background-color: #818079;
 }
+
+.clear-task-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #c7b6a5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.clear-task-button:hover {
+  background-color: #a29180;
+}
+
+.dropdown {
+  margin-bottom: 10px;
+}
+
+.dropdown-label {
+  margin-right: 10px;
+  font-family: "Times New Roman", Times, serif;
+  color: #877869;
+  font-size: 14px;
+}
+
+.dropdown-select {
+  padding: 3px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: "Times New Roman", Times, serif;
+  color: #877869;
+}
